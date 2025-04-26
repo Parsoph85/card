@@ -1,0 +1,41 @@
+/* src/components/Card.module.css */
+.card {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cardFlipped {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.titleFlipped {
+  color: white; /* Цвет заголовка при перевороте */
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.descriptionFlipped {
+  color: white; /* Цвет описания при перевороте */
+}
+
+.button {
+  margin-top: 16px;
+}
